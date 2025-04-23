@@ -1,0 +1,41 @@
+2025-04-23 10:42:25,751 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-23 10:42:25,752 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-04-23 10:42:25,757 [INFO] werkzeug:  * Restarting with stat
+2025-04-23 10:42:25,964 [WARNING] werkzeug:  * Debugger is active!
+2025-04-23 10:42:25,972 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-23 10:49:55,871 [INFO] werkzeug: 127.0.0.1 - - [23/Apr/2025 10:49:55] "[31m[1mPOST /login HTTP/1.1[0m" 415 -
+2025-04-23 10:50:11,141 [INFO] services.login_service: Login berhasil untuk email: rendimana12@gmail.com
+2025-04-23 10:50:11,142 [INFO] werkzeug: 127.0.0.1 - - [23/Apr/2025 10:50:11] "POST /login HTTP/1.1" 200 -
+2025-04-23 10:50:53,003 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/login_service.py', reloading
+2025-04-23 10:50:53,176 [INFO] werkzeug:  * Restarting with stat
+2025-04-23 10:50:53,579 [WARNING] werkzeug:  * Debugger is active!
+2025-04-23 10:50:53,613 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-23 10:52:41,128 [INFO] services.login_service: Login berhasil untuk email: rendimana12@gmail.com
+2025-04-23 10:52:41,129 [INFO] werkzeug: 127.0.0.1 - - [23/Apr/2025 10:52:41] "POST /login HTTP/1.1" 200 -
+2025-04-23 10:53:00,192 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/login_service.py', reloading
+2025-04-23 10:53:00,266 [INFO] werkzeug:  * Restarting with stat
+2025-04-23 10:53:00,636 [WARNING] werkzeug:  * Debugger is active!
+2025-04-23 10:53:00,638 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-23 10:53:01,667 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/login_service.py', reloading
+2025-04-23 10:53:01,758 [INFO] werkzeug:  * Restarting with stat
+2025-04-23 10:53:33,961 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-23 10:53:33,963 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-04-23 10:53:33,964 [INFO] werkzeug:  * Restarting with stat
+2025-04-23 10:53:34,166 [WARNING] werkzeug:  * Debugger is active!
+2025-04-23 10:53:34,167 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-23 10:53:36,780 [INFO] services.login_service: Login berhasil untuk email: rendimana12@gmail.com
+2025-04-23 10:53:36,781 [INFO] werkzeug: 127.0.0.1 - - [23/Apr/2025 10:53:36] "POST /login HTTP/1.1" 200 -
+2025-04-23 10:59:30,368 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/login_routes.py', reloading
+2025-04-23 10:59:30,463 [INFO] werkzeug:  * Restarting with stat
+2025-04-23 11:00:00,741 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-23 11:00:00,742 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-04-23 11:00:00,742 [INFO] werkzeug:  * Restarting with stat
+2025-04-23 11:00:00,944 [WARNING] werkzeug:  * Debugger is active!
+2025-04-23 11:00:00,945 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-23 11:00:02,616 [INFO] werkzeug: 127.0.0.1 - - [23/Apr/2025 11:00:02] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-04-23 11:00:11,441 [INFO] werkzeug: 127.0.0.1 - - [23/Apr/2025 11:00:11] "[31m[1mPOST /login HTTP/1.1[0m" 415 -
+2025-04-23 11:00:24,521 [WARNING] services.login_service: Login gagal. User tidak ditemukan untuk email: rendimana12@gmail.com
+2025-04-23 11:00:24,522 [INFO] werkzeug: 127.0.0.1 - - [23/Apr/2025 11:00:24] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
