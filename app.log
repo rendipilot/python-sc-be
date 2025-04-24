@@ -39,3 +39,162 @@
 2025-04-23 11:00:11,441 [INFO] werkzeug: 127.0.0.1 - - [23/Apr/2025 11:00:11] "[31m[1mPOST /login HTTP/1.1[0m" 415 -
 2025-04-23 11:00:24,521 [WARNING] services.login_service: Login gagal. User tidak ditemukan untuk email: rendimana12@gmail.com
 2025-04-23 11:00:24,522 [INFO] werkzeug: 127.0.0.1 - - [23/Apr/2025 11:00:24] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-04-24 09:31:06,574 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-24 09:31:06,581 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-04-24 09:31:06,586 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 09:31:08,277 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 09:31:08,284 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 09:32:50,453 [INFO] services.login_service: Login berhasil untuk email: rendimana12@gmail.com
+2025-04-24 09:32:50,455 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 09:32:50] "POST /login HTTP/1.1" 200 -
+2025-04-24 09:33:51,783 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/predict_service.py', reloading
+2025-04-24 09:33:51,987 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 09:33:53,014 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 09:33:53,016 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 09:34:24,258 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/predict_service.py', reloading
+2025-04-24 09:34:24,653 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 09:34:26,151 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 09:34:26,152 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 09:34:27,841 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/predict_service.py', reloading
+2025-04-24 09:34:28,139 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 09:34:29,355 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 09:34:29,356 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 09:35:32,381 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 09:35:32] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-24 09:36:01,036 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/auth/decorator.py', reloading
+2025-04-24 09:36:01,252 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 09:36:03,112 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 09:36:03,123 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 09:36:03,734 [ERROR] services.predict_service: Terjadi error saat login: tuple index out of range
+2025-04-24 09:36:03,737 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 09:36:03] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-24 09:37:29,735 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/predict_service.py', reloading
+2025-04-24 09:37:30,124 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 09:37:31,227 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 09:37:31,228 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 09:37:33,153 [ERROR] services.predict_service: Terjadi error saat login: tuple index out of range
+2025-04-24 09:37:33,155 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 09:37:33] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-24 09:37:35,418 [ERROR] services.predict_service: Terjadi error saat login: tuple index out of range
+2025-04-24 09:37:35,419 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 09:37:35] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-24 09:39:05,859 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-24 09:39:05,860 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-04-24 09:39:05,861 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 09:39:06,969 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 09:39:06,971 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 09:39:09,916 [ERROR] services.predict_service: Terjadi error saat login: schema "np" does not exist
+LINE 4: ...ake.sb3', 'f339eb2c-e5b6-4f23-a962-6bd763634202', np.float64...
+                                                             ^
+
+2025-04-24 09:39:09,917 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 09:39:09] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-24 09:39:21,481 [ERROR] services.predict_service: Terjadi error saat login: schema "np" does not exist
+LINE 4: ...ake.sb3', 'f339eb2c-e5b6-4f23-a962-6bd763634202', np.float64...
+                                                             ^
+
+2025-04-24 09:39:21,487 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 09:39:21] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-24 09:41:00,712 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-24 09:41:00,712 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-04-24 09:41:00,713 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 09:41:02,017 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 09:41:02,022 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 09:41:02,503 [ERROR] services.predict_service: Terjadi error saat login: can't adapt type 'builtin_function_or_method'
+2025-04-24 09:41:02,504 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 09:41:02] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-24 09:41:06,543 [ERROR] services.predict_service: Terjadi error saat login: can't adapt type 'builtin_function_or_method'
+2025-04-24 09:41:06,545 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 09:41:06] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-24 09:41:52,037 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/predict_service.py', reloading
+2025-04-24 09:41:52,359 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 09:41:53,383 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 09:41:53,385 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 09:42:24,957 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/predict_service.py', reloading
+2025-04-24 09:42:25,320 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 09:42:26,519 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 09:42:26,521 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 09:42:34,750 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/predict_service.py', reloading
+2025-04-24 09:42:35,396 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 09:42:36,905 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 09:42:36,907 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 09:42:44,301 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/predict_service.py', reloading
+2025-04-24 09:42:44,590 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 09:42:45,639 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 09:42:45,644 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 09:42:47,770 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/predict_service.py', reloading
+2025-04-24 09:42:48,106 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 09:42:49,501 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 09:42:49,503 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 09:42:49,580 [ERROR] services.predict_service: Terjadi error saat login: can't adapt type 'builtin_function_or_method'
+2025-04-24 09:42:49,587 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 09:42:49] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-24 09:42:53,774 [ERROR] services.predict_service: Terjadi error saat login: can't adapt type 'builtin_function_or_method'
+2025-04-24 09:42:53,776 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 09:42:53] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-24 09:44:38,454 [ERROR] services.predict_service: Terjadi error saat login: can't adapt type 'builtin_function_or_method'
+2025-04-24 09:44:38,459 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 09:44:38] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-24 09:45:23,486 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/predict_service.py', reloading
+2025-04-24 09:45:24,040 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 09:45:25,530 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 09:45:25,531 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 09:45:25,639 [ERROR] services.predict_service: Terjadi error saat login: no results to fetch
+2025-04-24 09:45:25,647 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 09:45:25] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-24 09:48:12,610 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-24 09:48:12,614 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-04-24 09:48:12,615 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 09:48:13,689 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 09:48:13,691 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 09:48:14,475 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 09:48:14] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-24 09:48:47,092 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/predict_service.py', reloading
+2025-04-24 09:48:47,334 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 09:48:48,938 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 09:48:48,940 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 09:48:51,725 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 09:48:51] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-24 09:50:30,742 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/predict_service.py', reloading
+2025-04-24 09:50:31,001 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 09:50:45,559 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-24 09:50:45,562 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-04-24 09:50:45,563 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 09:50:46,941 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 09:50:46,942 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 09:50:48,952 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 09:50:48] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-24 09:53:40,112 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-24 09:53:40,113 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-04-24 09:53:40,114 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 09:53:41,540 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 09:53:41,545 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 09:53:41,995 [INFO] services.predict_service: Berhasil mengirimkan data : adelia-animasitrukpancake.sb3
+2025-04-24 09:53:42,001 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 09:53:42] "POST /predict HTTP/1.1" 200 -
+2025-04-24 09:55:03,736 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 09:55:03] "[31m[1mPOST /predict HTTP/1.1[0m" 401 -
+2025-04-24 09:55:11,566 [INFO] services.predict_service: Berhasil mengirimkan data : adelia-animasitrukpancake.sb3
+2025-04-24 09:55:11,575 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 09:55:11] "POST /predict HTTP/1.1" 200 -
+2025-04-24 10:00:25,736 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/predict_service.py', reloading
+2025-04-24 10:00:26,129 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 10:00:27,283 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 10:00:27,284 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 10:00:28,325 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/predict_service.py', reloading
+2025-04-24 10:00:28,588 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 10:00:29,906 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 10:00:29,908 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 10:00:38,269 [ERROR] services.predict_service: Terjadi error saat login: schema "np" does not exist
+LINE 4: ...ake.sb3', 'f339eb2c-e5b6-4f23-a962-6bd763634202', np.float64...
+                                                             ^
+
+2025-04-24 10:00:38,271 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 10:00:38] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-24 10:00:42,068 [ERROR] services.predict_service: Terjadi error saat login: schema "np" does not exist
+LINE 4: ...ake.sb3', 'f339eb2c-e5b6-4f23-a962-6bd763634202', np.float64...
+                                                             ^
+
+2025-04-24 10:00:42,068 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 10:00:42] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-04-24 10:00:57,817 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/predict_service.py', reloading
+2025-04-24 10:00:58,041 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 10:00:59,593 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 10:00:59,644 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 10:00:59,891 [INFO] services.predict_service: Berhasil mengirimkan data : adelia-animasitrukpancake.sb3
+2025-04-24 10:00:59,899 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 10:00:59] "POST /predict HTTP/1.1" 200 -
+2025-04-24 10:01:45,492 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/predict_service.py', reloading
+2025-04-24 10:01:45,855 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 10:01:47,378 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 10:01:47,379 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 10:02:07,861 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/predict_service.py', reloading
+2025-04-24 10:02:08,168 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 10:02:09,382 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 10:02:09,397 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 10:02:11,103 [INFO] services.predict_service: Berhasil mengirimkan data : adelia-animasitrukpancake.sb3
+2025-04-24 10:02:11,105 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 10:02:11] "POST /predict HTTP/1.1" 200 -

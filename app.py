@@ -3,7 +3,7 @@ from flask_cors import CORS
 from dotenv import load_dotenv
 import logging
 from  routes.login_routes import login_routes
-
+from routes.predict_routes import predict_routes
 
 app = Flask(__name__)
 
@@ -21,6 +21,7 @@ load_dotenv()
 CORS(app)
 
 app.register_blueprint(login_routes)
+app.register_blueprint(predict_routes)
 
 if __name__ == "__main__":
     app.run(debug=True)
