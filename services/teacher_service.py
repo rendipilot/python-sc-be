@@ -1,5 +1,6 @@
 from db import execute_query
 import logging
+from datetime import datetime
 
 logger = logging.getLogger(__name__)
 
@@ -57,6 +58,51 @@ def teacherActiveData(teacher_id):
         
         logger.info("Berhasil aktifkan guru")
         return {"message": "berhasil aktifkan guru"},200
+    except Exception as e:
+        logger.error(f"Terjadi error saat login: {str(e)}")
+        return {'message': 'Internal server error'}, 500
+
+
+def teacherAddData(data):
+    try:
+        query = """
+        WITH new_user AS (
+            INSERT INTO users (username, email, password, role, created_at, updated_at)
+            VALUES (%s, %s, %s, %s, %s, %s)
+            RETURNING id
+        )
+        INSERT INTO teachers (user_id, active, created_at, updated_at)
+        SELECT id, true, %s, %s FROM new_user;
+        """
+        
+        values = (data["username"], data["email"], data["password"], "teacher", datetime.now(), datetime.now(),datetime.now(),datetime.now())
+        
+        execute_query(query, values)
+        
+        logger.info("Berhasil menambahkan data guru")
+        return {"message": "berhasil menambahkan data guru"},200
+    
+    except Exception as e:
+        logger.error(f"Terjadi error saat login: {str(e)}")
+        return {'message': 'Internal server error'}, 500
+  
+
+def teacherUpdateData(data):
+    try:
+        query = """
+         UPDATE users 
+         SET 
+         username = COALESCE(%s, username), email = COALESCE(%s, email), password=COALESCE(%s, password), updated_at =%s  
+         WHERE id = %s      
+        """
+        
+        values = (data["username"], data["email"], data["password"], datetime.now(), data["teacher_id"])
+        
+        execute_query(query, values)
+        
+        logger.info("Berhasil mengubah data guru")
+        return {"message": "berhasil mengubah data guru"},200
+    
     except Exception as e:
         logger.error(f"Terjadi error saat login: {str(e)}")
         return {'message': 'Internal server error'}, 500

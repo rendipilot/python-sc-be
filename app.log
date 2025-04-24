@@ -171,3 +171,177 @@ LINE 3:         teacher
 2025-04-24 11:45:31,333 [INFO] services.login_service: Check Admin : RealDictRow({'role': 'admin'})
 2025-04-24 11:45:31,365 [INFO] services.teacher_service: Berhasil Non-aktifkan guru
 2025-04-24 11:45:31,366 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 11:45:31] "PUT /teacher/delete HTTP/1.1" 200 -
+2025-04-24 12:57:59,751 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/teacher_routes.py', reloading
+2025-04-24 12:57:59,993 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:15:59,267 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-24 13:15:59,269 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-04-24 13:15:59,271 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:16:00,666 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:16:00,667 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:18:08,999 [INFO] services.login_service: Check Admin : RealDictRow({'role': 'admin'})
+2025-04-24 13:18:09,097 [INFO] services.teacher_service: Berhasil menambahkan data guru
+2025-04-24 13:18:09,098 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 13:18:09] "POST /teacher/add HTTP/1.1" 200 -
+2025-04-24 13:19:21,943 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:19:22,358 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:19:23,521 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:19:23,521 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:19:26,611 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:19:26,818 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:19:27,978 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:19:28,000 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:20:09,266 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:20:10,082 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:20:13,309 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:20:13,311 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:20:19,577 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:20:20,019 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:20:21,675 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:20:21,676 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:20:24,790 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:20:25,060 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:20:26,421 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:20:26,422 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:20:28,546 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:20:28,972 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:20:30,397 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:20:30,435 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:20:35,650 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:20:35,967 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:20:37,248 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:20:37,249 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:20:38,681 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:20:39,422 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:20:41,207 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:20:41,208 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:20:44,304 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:20:44,646 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:20:45,946 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:20:45,947 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:20:50,053 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:20:50,613 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:20:52,231 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:20:52,235 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:20:59,405 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:20:59,854 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:21:01,369 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:21:01,371 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:21:03,449 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:21:03,737 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:21:05,441 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:21:05,441 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:21:07,530 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:21:07,817 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:21:09,225 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:21:09,226 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:21:16,609 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:21:16,947 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:21:18,428 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:21:18,429 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:21:24,607 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:21:24,956 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:21:26,378 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:21:26,378 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:21:41,702 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:21:42,024 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:21:43,461 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:21:43,465 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:21:49,634 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:21:49,890 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:21:51,045 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:21:51,046 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:21:53,119 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:21:53,355 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:21:54,595 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:21:54,626 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:21:55,826 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:21:56,168 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:21:57,248 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:21:57,250 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:21:58,395 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:21:58,619 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:22:00,212 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:22:00,222 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:22:01,376 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:22:01,756 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:22:02,954 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:22:02,954 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:22:06,118 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:22:06,356 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:22:07,420 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:22:07,421 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:22:26,358 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:22:26,837 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:22:28,437 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:22:28,438 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:22:32,623 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:22:33,029 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:22:34,180 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:22:34,181 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:22:38,295 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:22:38,670 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:22:39,873 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:22:39,875 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:22:51,684 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:22:52,294 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:22:54,361 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:22:54,365 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:22:56,451 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:22:57,047 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:22:58,854 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:22:58,869 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:23:09,151 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:23:09,370 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:23:11,345 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:23:11,346 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:23:15,453 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:23:15,877 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:27:23,056 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-24 13:27:23,059 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-04-24 13:27:23,061 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:27:24,621 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:27:24,623 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:31:40,768 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:31:41,186 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:31:42,406 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:31:42,408 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:31:44,690 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:31:45,119 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:31:47,117 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:31:47,118 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:33:43,028 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 13:33:43] "[31m[1mGET /teacher/update HTTP/1.1[0m" 405 -
+2025-04-24 13:33:48,983 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 13:33:48] "[31m[1mPUT /teacher/update HTTP/1.1[0m" 401 -
+2025-04-24 13:34:04,730 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 13:34:04] "[31m[1mPUT /teacher/update HTTP/1.1[0m" 401 -
+2025-04-24 13:34:17,133 [INFO] services.login_service: Login berhasil untuk email: rendimana12@gmail.com
+2025-04-24 13:34:17,134 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 13:34:17] "POST /login HTTP/1.1" 200 -
+2025-04-24 13:34:31,524 [INFO] services.login_service: Check Admin : RealDictRow({'role': 'admin'})
+2025-04-24 13:34:31,545 [INFO] services.teacher_service: Berhasil mengubah data guru
+2025-04-24 13:34:31,545 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 13:34:31] "PUT /teacher/update HTTP/1.1" 200 -
+2025-04-24 13:35:16,522 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:35:16,835 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:35:18,144 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:35:18,164 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:35:21,381 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:35:21,676 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:35:23,057 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:35:23,063 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:35:24,172 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:35:24,460 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:35:25,470 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:35:25,471 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:35:26,522 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:35:26,805 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:35:27,960 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:35:27,962 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:35:35,143 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:35:35,389 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:35:36,395 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:35:36,397 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:35:39,490 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 13:35:39,826 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:35:41,314 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:35:41,315 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:36:11,289 [INFO] services.login_service: Check Admin : RealDictRow({'role': 'admin'})
+2025-04-24 13:36:11,309 [INFO] services.teacher_service: Berhasil mengubah data guru
+2025-04-24 13:36:11,315 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 13:36:11] "PUT /teacher/update HTTP/1.1" 200 -
