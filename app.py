@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 import logging
 from  routes.login_routes import login_routes
 from routes.predict_routes import predict_routes
+from routes.history_routes import history_routes
 
 app = Flask(__name__)
 
@@ -22,6 +23,7 @@ CORS(app)
 
 app.register_blueprint(login_routes)
 app.register_blueprint(predict_routes)
+app.register_blueprint(history_routes)
 
 if __name__ == "__main__":
     app.run(debug=True)
