@@ -6,6 +6,7 @@ from  routes.login_routes import login_routes
 from routes.predict_routes import predict_routes
 from routes.history_routes import history_routes
 from routes.teacher_routes import teacher_routes
+from routes.user_routes import user_routes
 
 app = Flask(__name__)
 
@@ -26,6 +27,8 @@ app.register_blueprint(login_routes)
 app.register_blueprint(predict_routes)
 app.register_blueprint(history_routes)
 app.register_blueprint(teacher_routes)
+app.register_blueprint(user_routes)
+
 
 if __name__ == "__main__":
     app.run(debug=True)

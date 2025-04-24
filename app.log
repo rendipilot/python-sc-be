@@ -345,3 +345,666 @@ LINE 3:         teacher
 2025-04-24 13:36:11,289 [INFO] services.login_service: Check Admin : RealDictRow({'role': 'admin'})
 2025-04-24 13:36:11,309 [INFO] services.teacher_service: Berhasil mengubah data guru
 2025-04-24 13:36:11,315 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 13:36:11] "PUT /teacher/update HTTP/1.1" 200 -
+2025-04-24 13:44:03,642 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:44:03,844 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:44:04,885 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:44:04,889 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:44:12,505 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:44:12,973 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:44:14,190 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:44:14,191 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:44:17,290 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:44:17,540 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:44:18,702 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:44:18,806 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:44:23,186 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:44:23,462 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:44:24,802 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:44:24,804 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:44:27,881 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:44:28,090 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:44:29,154 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:44:29,156 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:44:34,263 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:44:34,480 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:44:35,582 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:44:35,583 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:44:40,741 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:44:41,061 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:44:42,255 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:44:42,267 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:44:43,326 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:44:43,576 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:44:44,584 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:44:44,585 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:44:48,668 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:44:48,872 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:44:50,067 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:44:50,067 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:44:51,107 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:44:51,413 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:44:52,747 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:44:52,749 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:44:54,856 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:44:55,066 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:44:56,004 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:44:56,005 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:44:58,061 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:44:58,266 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:44:59,408 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:44:59,408 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:45:11,636 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:45:11,889 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:45:12,989 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:45:12,991 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:45:16,767 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:45:16,981 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:45:18,153 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:45:18,155 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:47:15,732 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:47:15,964 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:47:17,051 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:47:17,059 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:47:20,130 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:47:20,343 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:47:21,548 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:47:21,593 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:47:25,697 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:47:25,939 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:47:27,014 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:47:27,015 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:47:36,419 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:47:36,659 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:47:37,984 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:47:37,986 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:47:39,114 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:47:39,387 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:47:40,547 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:47:40,554 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:47:44,173 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:47:44,410 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:47:45,691 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:47:45,696 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:48:12,762 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:48:13,216 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:48:14,750 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:48:14,753 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:48:17,854 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:48:18,075 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:48:19,564 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:48:19,576 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:48:23,752 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:48:23,974 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:48:25,305 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:48:25,308 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:48:27,380 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:48:27,683 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:48:28,833 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:48:28,837 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:48:41,095 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:48:41,312 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:48:42,432 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:48:42,443 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:48:43,784 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:48:44,012 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:48:45,271 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:48:45,273 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:48:52,426 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:48:52,690 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:48:53,730 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:48:53,735 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:48:55,841 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:48:56,050 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:48:57,044 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:48:57,046 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:49:03,449 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:49:03,680 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:49:04,614 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:49:04,619 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:49:31,114 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:49:31,372 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:49:32,413 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:49:32,416 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:49:33,489 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:49:33,997 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:49:35,023 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:49:35,048 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:49:39,256 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:49:39,458 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:49:40,580 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:49:40,581 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:49:43,770 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:49:44,037 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:49:45,015 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:49:45,021 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:49:52,166 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:49:52,378 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:49:53,467 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:49:53,468 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:49:54,508 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:49:54,778 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:49:55,925 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:49:55,927 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:50:00,019 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:50:00,259 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:50:01,165 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:50:01,168 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:50:05,449 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:50:05,929 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:50:07,155 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:50:07,155 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:50:14,820 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:50:15,205 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:50:16,817 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:50:16,818 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:50:20,928 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:50:21,125 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:50:22,726 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:50:22,729 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:50:30,345 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:50:30,602 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:50:31,558 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:50:31,559 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:50:39,727 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:50:39,985 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:50:40,993 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:50:40,995 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:50:43,669 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:50:43,986 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:50:45,119 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:50:45,120 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:50:47,177 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:50:47,422 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:50:48,483 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:50:48,487 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:50:50,767 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:50:51,095 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:50:52,085 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:50:52,088 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:50:54,147 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:50:54,364 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:50:55,274 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:50:55,276 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:50:56,322 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:50:56,555 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:50:57,637 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:50:57,639 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:51:08,883 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:51:09,138 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:51:10,107 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:51:10,109 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:51:14,228 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:51:14,450 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:51:15,419 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:51:15,420 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:51:18,488 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:51:18,804 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:51:19,859 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:51:19,863 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:51:23,954 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:51:24,440 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:51:25,516 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:51:25,522 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:51:33,704 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:51:34,026 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:51:35,048 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:51:35,049 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:51:42,182 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:51:42,418 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:51:43,317 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:51:43,321 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:51:53,527 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:51:53,864 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:51:55,631 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:51:55,634 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:51:58,715 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:51:58,965 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:52:00,056 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:52:00,059 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:52:01,122 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:52:01,478 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:52:02,772 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:52:02,773 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:52:19,489 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:52:19,781 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:52:20,931 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:52:20,932 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:52:24,011 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:52:24,255 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:52:25,407 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:52:25,409 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:52:26,477 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:52:26,772 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:52:27,673 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:52:27,679 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:54:05,288 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:54:05,508 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:54:06,552 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:54:06,553 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:54:13,837 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:54:14,078 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:54:15,221 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:54:15,223 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:54:22,395 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:54:22,704 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:54:23,736 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:54:23,738 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:54:27,835 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:54:28,085 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:54:29,273 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:54:29,276 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:54:31,688 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:54:31,929 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:54:32,897 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:54:32,897 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:54:33,948 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:54:34,162 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:54:35,163 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:54:35,164 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:54:38,282 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:54:38,569 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:54:39,567 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:54:39,568 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:54:42,673 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:54:42,913 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:54:44,094 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:54:44,095 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:54:46,155 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:54:46,392 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:54:47,371 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:54:47,374 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:55:02,653 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:55:02,915 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:55:03,940 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:55:03,941 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:55:09,037 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:55:09,270 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:55:10,308 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:55:10,311 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:55:12,388 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:55:12,639 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:55:13,639 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:55:13,640 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:55:21,810 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:55:22,091 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:55:23,048 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:55:23,050 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:55:40,449 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:55:40,721 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:55:41,876 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:55:41,877 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:55:44,943 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:55:45,213 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:55:46,971 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:55:46,972 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:56:02,288 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:56:02,514 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:56:03,668 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:56:03,717 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:56:05,890 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:56:06,144 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:56:07,169 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:56:07,170 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:56:09,228 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:56:09,528 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:56:10,636 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:56:10,637 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:56:16,785 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:56:16,982 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:56:18,203 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:56:18,205 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:56:19,371 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:56:19,661 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:56:20,705 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:56:20,705 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:56:24,803 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:56:25,031 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:56:26,187 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:56:26,188 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:56:28,247 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:56:28,613 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:56:29,891 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:56:29,908 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:56:30,996 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:56:31,264 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:56:32,224 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:56:32,225 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:56:49,198 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:56:49,491 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:56:50,893 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:56:50,894 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:56:52,296 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:56:52,642 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:56:53,649 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:56:53,650 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:56:57,834 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:56:58,064 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:56:59,185 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:56:59,214 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:57:12,495 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:57:12,732 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:57:13,656 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:57:13,657 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:57:23,847 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:57:24,078 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:57:25,035 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:57:25,036 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:57:31,162 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:57:31,372 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:57:32,633 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:57:32,634 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:57:35,712 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:57:36,230 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:57:37,539 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:57:37,541 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:57:50,770 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:57:50,975 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:57:51,930 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:57:51,940 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:57:55,165 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:57:55,450 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:57:56,467 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:57:56,474 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:58:09,738 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:58:09,989 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:58:11,023 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:58:11,024 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:58:28,011 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 13:58:28,246 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:58:29,241 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:58:29,244 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:58:42,506 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:58:42,773 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:58:43,996 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:58:43,999 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:58:48,106 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:58:48,365 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:58:49,370 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:58:49,372 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:58:49,404 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:58:49,602 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:58:50,549 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:58:50,550 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:59:05,798 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:59:06,088 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:59:07,082 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:59:07,084 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:59:12,192 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:59:12,395 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:59:13,516 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:59:13,517 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:59:15,582 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:59:15,814 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:59:17,071 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:59:17,073 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:59:18,516 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:59:19,097 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:59:20,086 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:59:20,087 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:59:33,332 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:59:33,588 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:59:34,728 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:59:34,730 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:59:40,920 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:59:41,188 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:59:42,320 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:59:42,321 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:59:44,734 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:59:45,056 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:59:46,435 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:59:46,437 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:59:49,518 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:59:49,717 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:59:50,615 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:59:50,616 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:59:52,703 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:59:52,896 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:59:53,823 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:59:53,830 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:59:55,975 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:59:56,216 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 13:59:57,216 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 13:59:57,217 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 13:59:59,292 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 13:59:59,711 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:00:01,067 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:00:01,068 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:00:28,625 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 14:00:29,132 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:00:30,542 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:00:30,548 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:00:38,794 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 14:00:39,059 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:00:40,029 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:00:40,030 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:00:53,782 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 14:00:54,048 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:00:55,388 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:00:55,389 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:01:20,885 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 14:01:21,141 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:01:22,195 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:01:22,196 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:01:31,499 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:01:31,745 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:01:32,862 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:01:32,869 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:01:34,935 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:01:35,264 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:01:36,253 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:01:36,266 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:01:38,479 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:01:38,713 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:01:39,584 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:01:39,739 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:01:41,913 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:01:42,159 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:01:43,706 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:01:43,707 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:01:44,760 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:01:45,023 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:01:46,185 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:01:46,186 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:01:49,907 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:01:50,129 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:01:51,285 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:01:51,287 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:01:59,461 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:01:59,724 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:02:00,896 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:02:00,902 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:02:01,979 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:02:02,379 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:02:03,340 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:02:03,360 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:02:05,413 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:02:05,685 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:02:07,000 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:02:07,001 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:02:08,047 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:02:08,303 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:02:09,463 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:02:09,464 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:02:22,695 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:02:22,902 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:02:23,845 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:02:23,851 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:02:32,069 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:02:32,406 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:02:33,659 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:02:33,666 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:02:51,022 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:02:51,347 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:02:52,654 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:02:52,658 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:02:53,905 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:02:54,165 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:02:55,451 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:02:55,453 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:02:56,602 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:02:56,821 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:02:58,023 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:02:58,025 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:03:03,192 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:03:03,477 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:03:04,546 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:03:04,548 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:03:06,772 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:03:07,115 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:03:08,276 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:03:08,287 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:03:13,479 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:03:13,746 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:03:14,729 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:03:14,730 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:03:17,925 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:03:18,389 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:03:19,503 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:03:19,602 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:03:21,732 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:03:21,975 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:03:23,163 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:03:23,184 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:03:41,547 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:03:41,772 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:03:43,160 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:03:43,196 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:03:44,243 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:03:44,461 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:03:45,457 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:03:45,458 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:03:46,508 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:03:46,785 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:03:48,160 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:03:48,162 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:03:51,265 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:03:51,480 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:03:52,628 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:03:52,629 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:03:57,763 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:03:58,095 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:03:59,246 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:03:59,251 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:04:01,337 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:04:01,541 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:04:02,703 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:04:02,705 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:04:05,794 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:04:06,036 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:04:07,640 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:04:07,652 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:04:09,763 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:04:10,164 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:04:11,259 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:04:11,259 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:04:35,908 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:04:36,168 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:04:37,308 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:04:37,310 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:04:43,473 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:04:43,800 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:04:44,967 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:04:44,969 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:04:51,430 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:04:51,677 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:04:52,718 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:04:52,736 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:05:03,982 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:05:04,401 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:05:05,963 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:05:05,964 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:05:09,951 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:05:10,150 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:05:11,226 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:05:11,264 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:05:15,423 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:05:15,854 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:05:17,628 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:05:17,678 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:05:19,832 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:05:20,145 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:05:21,197 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:05:21,204 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:05:24,937 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:05:25,164 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:05:26,118 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:05:26,122 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:12:45,165 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:12:45,587 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:12:47,020 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:12:47,031 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:12:50,457 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:12:50,780 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:12:51,972 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:12:51,973 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:12:59,123 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/user_routes.py', reloading
+2025-04-24 14:12:59,403 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:13:00,719 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:13:00,758 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:13:48,657 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 14:13:49,096 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:13:50,134 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:13:50,135 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:14:04,376 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 14:14:04,688 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:14:06,208 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:14:06,209 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:14:07,297 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 14:14:07,591 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:14:08,902 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:14:08,918 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:15:11,127 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 14:15:11] "[33mPUT /user/update HTTP/1.1[0m" 404 -
+2025-04-24 14:15:37,208 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/app.py', reloading
+2025-04-24 14:15:37,418 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:16:02,367 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-24 14:16:02,380 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-04-24 14:16:02,381 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:16:04,000 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:16:04,072 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:16:11,628 [INFO] services.user_service: Berhasil mengubah data user
+2025-04-24 14:16:11,629 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 14:16:11] "PUT /user/update HTTP/1.1" 200 -
+2025-04-24 14:18:13,692 [ERROR] services.user_service: Terjadi error saat login: invalid input syntax for type uuid: "drakur12"
+LINE 3:         WHERE id = 'drakur12'
+                           ^
+
+2025-04-24 14:18:13,694 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 14:18:13] "PUT /user/change-password HTTP/1.1" 200 -
+2025-04-24 14:18:21,184 [ERROR] services.user_service: Terjadi error saat login: invalid input syntax for type uuid: "drakur12"
+LINE 3:         WHERE id = 'drakur12'
+                           ^
+
+2025-04-24 14:18:21,186 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 14:18:21] "[35m[1mPUT /user/change-password HTTP/1.1[0m" 500 -
+2025-04-24 14:18:49,788 [ERROR] services.user_service: Terjadi error saat login: invalid input syntax for type uuid: "drakur12"
+LINE 3:         WHERE id = 'drakur12'
+                           ^
+
+2025-04-24 14:18:49,789 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 14:18:49] "[35m[1mPUT /user/change-password HTTP/1.1[0m" 500 -
+2025-04-24 14:18:56,928 [ERROR] services.user_service: Terjadi error saat login: invalid input syntax for type uuid: "drakur12"
+LINE 3:         WHERE id = 'drakur12'
+                           ^
+
+2025-04-24 14:18:56,929 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 14:18:56] "[35m[1mPUT /user/change-password HTTP/1.1[0m" 500 -
+2025-04-24 14:19:23,985 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 14:19:24,281 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:19:25,467 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:19:25,468 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:19:34,234 [INFO] services.user_service: Berhasil mengambil data user
+2025-04-24 14:19:34,235 [ERROR] services.user_service: Terjadi error saat login: 'password'
+2025-04-24 14:19:34,236 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 14:19:34] "[35m[1mPUT /user/change-password HTTP/1.1[0m" 500 -
+2025-04-24 14:19:52,607 [INFO] services.user_service: Berhasil mengambil data user
+2025-04-24 14:19:52,608 [ERROR] services.user_service: Terjadi error saat login: 'password'
+2025-04-24 14:19:52,609 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 14:19:52] "[35m[1mPUT /user/change-password HTTP/1.1[0m" 500 -
+2025-04-24 14:21:55,363 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 14:21:56,141 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:21:57,290 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:21:57,291 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:22:04,655 [INFO] services.user_service: Berhasil mengambil data user
+2025-04-24 14:22:04,656 [ERROR] services.user_service: Terjadi error saat login: 'password'
+2025-04-24 14:22:04,657 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 14:22:04] "[35m[1mPUT /user/change-password HTTP/1.1[0m" 500 -
+2025-04-24 14:22:45,159 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/user_service.py', reloading
+2025-04-24 14:22:45,684 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 14:22:47,121 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 14:22:47,122 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 14:22:47,164 [INFO] services.user_service: Berhasil mengambil data user
+2025-04-24 14:22:47,196 [INFO] services.user_service: Berhasil mengubah data user
+2025-04-24 14:22:47,200 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 14:22:47] "PUT /user/change-password HTTP/1.1" 200 -
