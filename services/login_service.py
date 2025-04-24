@@ -50,4 +50,21 @@ def login(email, password):
         logger.error(f"Terjadi error saat login: {str(e)}")
         return {'message': 'Internal server error'}, 500
 
+def getAdmin(user_id):
+    try:
+        query = """
+        SELECT role
+        FROM users
+        WHERE id = %s
+        """
         
+        values = (user_id,)
+        
+        result = execute_query(query, values, fetch_one=True)
+        
+        logger.info(f"Check Admin : {result}")
+        return {"message": "berhasil cek", "role" : result["role"]},200
+    
+    except Exception as e:
+        logger.error(f"Terjadi error saat login: {str(e)}")
+        return {'message': 'Internal server error'}, 500     

@@ -6,3 +6,168 @@
 2025-04-24 11:01:21,157 [INFO] werkzeug:  * Debugger PIN: 461-205-854
 2025-04-24 11:01:27,630 [INFO] services.teacher_service: Berhasil dapatkan data guru
 2025-04-24 11:01:27,631 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 11:01:27] "GET /teacher HTTP/1.1" 200 -
+2025-04-24 11:08:48,916 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/teacher_routes.py', reloading
+2025-04-24 11:08:49,150 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:08:50,391 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 11:08:50,397 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 11:08:53,576 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/teacher_routes.py', reloading
+2025-04-24 11:08:53,786 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:17:19,414 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-24 11:17:19,415 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-04-24 11:17:19,417 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:17:20,583 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 11:17:20,584 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 11:18:22,808 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/teacher_routes.py', reloading
+2025-04-24 11:18:23,048 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:18:24,388 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 11:18:24,402 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 11:18:26,589 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/teacher_routes.py', reloading
+2025-04-24 11:18:27,012 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:18:28,255 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 11:18:28,256 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 11:19:22,139 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 11:19:22,346 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:19:23,303 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 11:19:23,306 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 11:20:16,307 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 11:20:16,727 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:20:18,445 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 11:20:18,449 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 11:20:28,846 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/teacher_routes.py', reloading
+2025-04-24 11:20:29,187 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:20:30,363 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 11:20:30,364 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 11:21:40,667 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/teacher_routes.py', reloading
+2025-04-24 11:21:41,171 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:21:42,987 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 11:21:42,988 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 11:21:58,108 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 11:21:58] "[35m[1mPUT /teacher/delete HTTP/1.1[0m" 500 -
+2025-04-24 11:22:06,615 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 11:22:06] "[35m[1mPUT /teacher/delete HTTP/1.1[0m" 500 -
+2025-04-24 11:22:21,533 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/teacher_routes.py', reloading
+2025-04-24 11:22:21,923 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:22:23,503 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 11:22:23,504 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 11:22:41,141 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/teacher_routes.py', reloading
+2025-04-24 11:22:41,374 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:23:19,265 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-24 11:23:19,270 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-04-24 11:23:19,272 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:23:20,870 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 11:23:20,871 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 11:23:22,760 [ERROR] services.teacher_service: Terjadi error saat login: not all arguments converted during string formatting
+2025-04-24 11:23:22,761 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 11:23:22] "[35m[1mPUT /teacher/delete HTTP/1.1[0m" 500 -
+2025-04-24 11:23:26,837 [ERROR] services.teacher_service: Terjadi error saat login: not all arguments converted during string formatting
+2025-04-24 11:23:26,838 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 11:23:26] "[35m[1mPUT /teacher/delete HTTP/1.1[0m" 500 -
+2025-04-24 11:23:53,710 [ERROR] services.teacher_service: Terjadi error saat login: not all arguments converted during string formatting
+2025-04-24 11:23:53,710 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 11:23:53] "[35m[1mPUT /teacher/delete HTTP/1.1[0m" 500 -
+2025-04-24 11:24:09,672 [INFO] services.login_service: Login berhasil untuk email: rendimana12@gmail.com
+2025-04-24 11:24:09,673 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 11:24:09] "POST /login HTTP/1.1" 200 -
+2025-04-24 11:24:25,569 [ERROR] services.teacher_service: Terjadi error saat login: not all arguments converted during string formatting
+2025-04-24 11:24:25,570 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 11:24:25] "[35m[1mPUT /teacher/delete HTTP/1.1[0m" 500 -
+2025-04-24 11:25:15,824 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 11:25:16,137 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:25:17,244 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 11:25:17,245 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 11:25:21,535 [ERROR] services.teacher_service: Terjadi error saat login: relation "teacher" does not exist
+LINE 3:         teacher
+                ^
+
+2025-04-24 11:25:21,539 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 11:25:21] "[35m[1mPUT /teacher/delete HTTP/1.1[0m" 500 -
+2025-04-24 11:25:34,432 [ERROR] services.teacher_service: Terjadi error saat login: relation "teacher" does not exist
+LINE 3:         teacher
+                ^
+
+2025-04-24 11:25:34,434 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 11:25:34] "[35m[1mPUT /teacher/delete HTTP/1.1[0m" 500 -
+2025-04-24 11:25:49,945 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/teacher_service.py', reloading
+2025-04-24 11:25:50,322 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:25:51,505 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 11:25:51,507 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 11:27:48,440 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/teacher_routes.py', reloading
+2025-04-24 11:27:48,919 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:34:40,402 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-24 11:34:40,404 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-04-24 11:34:40,405 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:34:41,413 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 11:34:41,415 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 11:34:45,846 [INFO] services.login_service: Check Admin
+2025-04-24 11:34:45,847 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 11:34:45] "[32mPUT /teacher/delete HTTP/1.1[0m" 301 -
+2025-04-24 11:34:48,824 [INFO] services.login_service: Check Admin
+2025-04-24 11:34:48,825 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 11:34:48] "[32mPUT /teacher/delete HTTP/1.1[0m" 301 -
+2025-04-24 11:35:15,069 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/teacher_routes.py', reloading
+2025-04-24 11:35:15,345 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:35:16,541 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 11:35:16,541 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 11:35:19,621 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/teacher_routes.py', reloading
+2025-04-24 11:35:20,071 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:35:21,539 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 11:35:21,540 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 11:35:22,709 [INFO] services.login_service: Check Admin
+2025-04-24 11:35:22,713 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 11:35:22] "[32mPUT /teacher/delete HTTP/1.1[0m" 301 -
+2025-04-24 11:35:30,843 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/teacher_routes.py', reloading
+2025-04-24 11:35:31,197 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:35:32,270 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 11:35:32,275 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 11:35:35,864 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/teacher_routes.py', reloading
+2025-04-24 11:35:36,145 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:38:29,973 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-24 11:38:29,973 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-04-24 11:38:29,974 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:38:31,087 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 11:38:31,088 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 11:38:37,720 [INFO] services.login_service: Check Admin : RealDictRow({'role': 'admin'})
+2025-04-24 11:38:37,721 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 11:38:37] "[32mPUT /teacher/delete HTTP/1.1[0m" 301 -
+2025-04-24 11:39:26,083 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/login_service.py', reloading
+2025-04-24 11:39:26,308 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:39:27,555 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 11:39:27,557 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 11:39:29,034 [INFO] services.login_service: Check Admin : RealDictRow({'role': 'admin'})
+2025-04-24 11:39:29,040 [ERROR] services.login_service: Terjadi error saat login: 'RealDictRow' object has no attribute 'role'
+2025-04-24 11:39:29,042 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 11:39:29] "[35m[1mPUT /teacher/delete HTTP/1.1[0m" 500 -
+2025-04-24 11:40:16,446 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/services/login_service.py', reloading
+2025-04-24 11:40:16,821 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:40:18,458 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 11:40:18,467 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 11:40:20,484 [INFO] services.login_service: Check Admin : RealDictRow({'role': 'admin'})
+2025-04-24 11:40:20,517 [INFO] services.teacher_service: Berhasil Non-aktifkan guru
+2025-04-24 11:40:20,518 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 11:40:20] "PUT /teacher/delete HTTP/1.1" 200 -
+2025-04-24 11:41:00,947 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/teacher_routes.py', reloading
+2025-04-24 11:41:01,287 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:41:02,424 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 11:41:02,425 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 11:41:04,796 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/teacher_routes.py', reloading
+2025-04-24 11:41:05,116 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:42:22,358 [INFO] werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-24 11:42:22,358 [INFO] werkzeug: [33mPress CTRL+C to quit[0m
+2025-04-24 11:42:22,359 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:42:23,292 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 11:42:23,293 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 11:42:26,802 [INFO] services.login_service: Check Admin : RealDictRow({'role': 'admin'})
+2025-04-24 11:42:26,831 [INFO] services.teacher_service: Berhasil Non-aktifkan guru
+2025-04-24 11:42:26,835 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 11:42:26] "PUT /teacher/aktif HTTP/1.1" 200 -
+2025-04-24 11:42:45,258 [INFO] services.login_service: Check Admin : RealDictRow({'role': 'admin'})
+2025-04-24 11:42:45,304 [INFO] services.teacher_service: Berhasil Non-aktifkan guru
+2025-04-24 11:42:45,307 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 11:42:45] "PUT /teacher/aktif HTTP/1.1" 200 -
+2025-04-24 11:43:24,322 [INFO] services.login_service: Check Admin : RealDictRow({'role': 'admin'})
+2025-04-24 11:43:24,356 [INFO] services.teacher_service: Berhasil Non-aktifkan guru
+2025-04-24 11:43:24,356 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 11:43:24] "PUT /teacher/delete HTTP/1.1" 200 -
+2025-04-24 11:43:31,692 [INFO] services.login_service: Check Admin : RealDictRow({'role': 'admin'})
+2025-04-24 11:43:31,748 [INFO] services.teacher_service: Berhasil Non-aktifkan guru
+2025-04-24 11:43:31,749 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 11:43:31] "PUT /teacher/aktif HTTP/1.1" 200 -
+2025-04-24 11:44:09,955 [INFO] werkzeug:  * Detected change in '/home/rendy/Documents/project/python/python-be/routes/teacher_routes.py', reloading
+2025-04-24 11:44:10,192 [INFO] werkzeug:  * Restarting with stat
+2025-04-24 11:44:11,572 [WARNING] werkzeug:  * Debugger is active!
+2025-04-24 11:44:11,574 [INFO] werkzeug:  * Debugger PIN: 461-205-854
+2025-04-24 11:44:18,692 [INFO] services.login_service: Check Admin : RealDictRow({'role': 'admin'})
+2025-04-24 11:44:18,728 [INFO] services.teacher_service: Berhasil aktifkan guru
+2025-04-24 11:44:18,729 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 11:44:18] "PUT /teacher/aktif HTTP/1.1" 200 -
+2025-04-24 11:44:56,333 [INFO] services.login_service: Check Admin : RealDictRow({'role': 'admin'})
+2025-04-24 11:44:56,356 [INFO] services.teacher_service: Berhasil Non-aktifkan guru
+2025-04-24 11:44:56,356 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 11:44:56] "PUT /teacher/delete HTTP/1.1" 200 -
+2025-04-24 11:45:31,333 [INFO] services.login_service: Check Admin : RealDictRow({'role': 'admin'})
+2025-04-24 11:45:31,365 [INFO] services.teacher_service: Berhasil Non-aktifkan guru
+2025-04-24 11:45:31,366 [INFO] werkzeug: 127.0.0.1 - - [24/Apr/2025 11:45:31] "PUT /teacher/delete HTTP/1.1" 200 -
