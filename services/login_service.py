@@ -34,21 +34,21 @@ def login(email, password):
                 'email': result['email'],
                 'role': result['role'],
                 'active': result['active'],
-                'exp': datetime.utcnow() + timedelta(hours=2)  # Expire dalam 2 jam
+                'exp': datetime.utcnow() + timedelta(hours=24)  # Expire dalam 24 jam
             }
 
             # Buat token
             token = jwt.encode(user_data, SECRET_KEY, algorithm='HS256')
 
             logger.info(f"Login berhasil untuk email: {email}")
-            return {'message': 'berhasil login','token': token}, 200
+            return {'message': 'berhasil login','token': token, "valid" : True}, 200
         else:
             logger.warning(f"Login gagal. User tidak ditemukan untuk email: {email}")
-            return {'message': 'Invalid email or password'}, 401
+            return {'message': 'Invalid email or password', "valid" : False}, 401
 
     except Exception as e:
         logger.error(f"Terjadi error saat login: {str(e)}")
-        return {'message': 'Internal server error'}, 500
+        return {'message': 'Internal server error', "valid" : False}, 500
 
 def getAdmin(user_id):
     try:

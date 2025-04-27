@@ -21,7 +21,7 @@ logging.basicConfig(
 
 load_dotenv()
 
-CORS(app)
+CORS(app, origins=["*"], supports_credentials=True)
 
 app.register_blueprint(login_routes)
 app.register_blueprint(predict_routes)
