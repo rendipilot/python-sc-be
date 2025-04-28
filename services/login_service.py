@@ -36,6 +36,11 @@ def login(email, password):
                 'active': result['active'],
                 'exp': datetime.utcnow() + timedelta(hours=24)  # Expire dalam 24 jam
             }
+            
+            if(not user_data['active']):
+                logger.warning(f"Login gagal. User sudah tidak aktif: {email}")
+                return {'message': 'User tidak valid', "valid" : False}, 401
+            
 
             # Buat token
             token = jwt.encode(user_data, SECRET_KEY, algorithm='HS256')
