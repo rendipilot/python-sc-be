@@ -37,7 +37,7 @@ def login(email, password):
                 'exp': datetime.utcnow() + timedelta(hours=24)  # Expire dalam 24 jam
             }
             
-            if(not user_data['active']):
+            if(not user_data['active'] and user_data["role"] != "admin"):
                 logger.warning(f"Login gagal. User sudah tidak aktif: {email}")
                 return {'message': 'User tidak valid', "valid" : False}, 401
             

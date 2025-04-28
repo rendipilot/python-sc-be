@@ -4,48 +4,48 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-def userUpdateData(data):
+def userUpdateData(data, user_id):
     try:
         query = """
         UPDATE users
-        SET username = COALESCE(%s, username), email = COALESCE(%s, email)
+        SET email = COALESCE(%s, email)
         WHERE id = %s
         """
         
-        values = (data["username"], data["email"], data["user_id"])
+        values = (data["email"], user_id)
         
         execute_query(query, values)
         
         logger.info("Berhasil mengubah data user")
-        return {"message": "berhasil mengubah data user"},200
+        return {"message": "berhasil mengubah data user", "valid": True},200
         
     except Exception as e:
         logger.error(f"Terjadi error saat login: {str(e)}")
-        return {'message': 'Internal server error'}, 500
+        return {'message': 'Internal server error', "valid": False}, 500
 
-def getPasswordData(data):
+def getPasswordData(user_id):
     try:
         query = """
         SELECT password FROM users
         WHERE id = %s
         """
         
-        values = (data["user_id"], )
+        values = (user_id, )
         
         result = execute_query(query, values, fetch_one=True)
         
         if not result:
-            logger.info(f"Password tidak ditemukan {data["user_id"]}")
+            logger.info(f"Password tidak ditemukan {user_id}")
             return {"message": "Password tidak ditemukan"}, 404
         
-        logger.info("Berhasil mengambil data user")
-        return {"message": "berhasil mengambil data user", "oldPassword" : result},200
+        logger.info(f"Berhasil mengambil data user {result}")
+        return {"message": "berhasil mengambil data user", "oldPassword" : result["password"]},200
         
     except Exception as e:
         logger.error(f"Terjadi error saat proses: {str(e)}")
         return {'message': 'Internal server error'}, 500
 
-def userChangePasswordData(data):
+def userChangePasswordData(data, user_id):
     try:
         query = """
         UPDATE users
@@ -53,13 +53,13 @@ def userChangePasswordData(data):
         WHERE id = %s
         """
         
-        values = (data["newPassword"], data["user_id"])
+        values = (data["newPassword"], user_id)
         
         execute_query(query, values)
         
         logger.info("Berhasil mengubah data user")
-        return {"message": "berhasil mengubah data user"},200
+        return {"message": "berhasil mengubah data user", "valid": True},200
         
     except Exception as e:
         logger.error(f"Terjadi error saat login: {str(e)}")
-        return {'message': 'Internal server error'}, 500
+        return {'message': 'Internal server error', "valid" : False}, 500
