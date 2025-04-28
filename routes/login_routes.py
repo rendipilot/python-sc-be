@@ -30,13 +30,13 @@ def hello():
     except jwt.ExpiredSignatureError:
         # Token sudah expired, hapus cookie dan beri error
         response = make_response(jsonify({"error": "Token expired"}), 401)
-        response.set_cookie('token', '', expires=0)
+        response.set_cookie('mkm-token', '', expires=0)
         logger.info("token sudah expired")
         return response
     except jwt.InvalidTokenError:
         # Token tidak valid, hapus cookie dan beri error
         response = make_response(jsonify({"error": "Invalid token"}), 401)
-        response.set_cookie('token', '', expires=0)
+        response.set_cookie('mkm-token', '', expires=0)
         logger.info("token tidak valid")
         return response
 
@@ -72,3 +72,11 @@ def loginUser():
         return response
 
     return jsonify(result), code
+
+
+@login_routes.route("/logout", methods=['POST'])
+def logoutUser():
+    response = make_response(jsonify({"message": "Logged out successfully", "valid": True}), 200)
+    # Menghapus cookie token
+    response.set_cookie("mkm-token", "", expires=0, path='/')  # Menghapus cookie dengan cara ini
+    return response
