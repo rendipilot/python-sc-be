@@ -35,6 +35,8 @@ def historyGetAllData():
         FROM 
         histories h LEFT JOIN users s
         ON h.user_id = s.id
+        ORDER BY 
+        h.created_at DESC;
         """
         
         result = execute_query(query, fetch_all=True)

@@ -12,10 +12,11 @@ def teacherGetAll(user_id):
     isAdmin, code = getAdmin(user_id)
     
     if code != 200:
-        return jsonify({"message" : "kesalahan auth"}), code
+        return jsonify({"message" : "kesalahan auth", "valid": False}), code
     
     if isAdmin["role"] != "admin":
-         return jsonify({"message" : "tidak di izinkan"}), 301
+         return jsonify({"message" : "tidak di izinkan", "valid": False}), 301
+     
     result, code = teacherGetAllData()
     
     return jsonify(result),code
@@ -26,10 +27,10 @@ def teacherDeleted(user_id):
     isAdmin, code = getAdmin(user_id)
     
     if code != 200:
-        return jsonify({"message" : "kesalahan auth"}), code
+        return jsonify({"message" : "kesalahan auth", "valid": False}), code
     
     if isAdmin["role"] != "admin":
-         return jsonify({"message" : "tidak di izinkan"}), 301
+         return jsonify({"message" : "tidak di izinkan", "valid": False}), 301
     
     data = request.get_json()
     result, code = teacherDeleteData(data.get('teacher_id'))
@@ -43,10 +44,10 @@ def teacherActivated(user_id):
     isAdmin, code = getAdmin(user_id)
     
     if code != 200:
-        return jsonify({"message" : "kesalahan auth"}), code
+        return jsonify({"message" : "kesalahan auth", "valid": False}), code
     
     if isAdmin["role"] != "admin":
-         return jsonify({"message" : "tidak di izinkan"}), 301
+         return jsonify({"message" : "tidak di izinkan", "valid": False}), 301
     
     data = request.get_json()
     result, code = teacherActiveData(data.get('teacher_id'))
@@ -59,10 +60,10 @@ def teacherAdded(user_id):
     isAdmin, code = getAdmin(user_id)
     
     if code != 200:
-        return jsonify({"message" : "kesalahan auth"}), code
+        return jsonify({"message" : "kesalahan auth", "valid": False}), code
     
     if isAdmin["role"] != "admin":
-         return jsonify({"message" : "tidak di izinkan"}), 301
+         return jsonify({"message" : "tidak di izinkan", "valid": False}), 301
     
     data = request.get_json()
     result, code = teacherAddData(data)
@@ -75,10 +76,10 @@ def teacherUpdated(user_id):
     isAdmin, code = getAdmin(user_id)
     
     if code != 200:
-        return jsonify({"message" : "kesalahan auth"}), code
+        return jsonify({"message" : "kesalahan auth", "valid": False}), code
     
     if isAdmin["role"] != "admin":
-         return jsonify({"message" : "tidak di izinkan"}), 301
+         return jsonify({"message" : "tidak di izinkan", "valid": False}), 301
     
     data = request.get_json()
     result, code = teacherUpdateData(data)

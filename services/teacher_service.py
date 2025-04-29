@@ -8,39 +8,40 @@ def teacherGetAllData():
     try:
         query = """
         SELECT
-        t.id, s.username, s.email, s.created_at,
+        s.id, s.username, s.email, s.created_at,
         t.active
         FROM teachers t
         LEFT JOIN
         users s ON s.id = t.user_id
+        ORDER BY t.active
         """
     
         result = execute_query(query, fetch_all=True)
         
         logger.info("Berhasil dapatkan data guru")
-        return {"message": "berhasil dapatkan data guru", "data": result},200
+        return {"message": "berhasil dapatkan data guru", "valid": True, "data": result},200
     except Exception as e:
         logger.error(f"Terjadi error saat login: {str(e)}")
-        return {'message': 'Internal server error'}, 500
+        return {'message': 'Internal server error',  "valid": False}, 500
 
 def teacherDeleteData(teacher_id):
     try:
         query = """
         UPDATE
         teachers
-        SET active = false
-        WHERE id = %s
+        SET active = null, deleted_at = %s
+        WHERE user_id = %s
         """
         
-        values = (teacher_id,)
+        values = (datetime.now(),teacher_id,)
     
         execute_query(query, values)
         
-        logger.info("Berhasil Non-aktifkan guru")
-        return {"message": "berhasil non aktifkan guru"},200
+        logger.info(f"Berhasil Non-aktifkan guru {teacher_id}")
+        return {f"message": "berhasil non aktifkan guru", "valid": True},200
     except Exception as e:
         logger.error(f"Terjadi error saat login: {str(e)}")
-        return {'message': 'Internal server error'}, 500
+        return {'message': 'Internal server error', "valid": False}, 500
 
 
 def teacherActiveData(teacher_id):
@@ -49,7 +50,7 @@ def teacherActiveData(teacher_id):
         UPDATE
         teachers
         SET active = true
-        WHERE id = %s
+        WHERE user_id = %s
         """
         
         values = (teacher_id,)
@@ -57,10 +58,10 @@ def teacherActiveData(teacher_id):
         execute_query(query, values)
         
         logger.info("Berhasil aktifkan guru")
-        return {"message": "berhasil aktifkan guru"},200
+        return {"message": "berhasil aktifkan guru", "valid": True},200
     except Exception as e:
         logger.error(f"Terjadi error saat login: {str(e)}")
-        return {'message': 'Internal server error'}, 500
+        return {'message': 'Internal server error', "valid": False}, 500
 
 
 def teacherAddData(data):
@@ -80,11 +81,11 @@ def teacherAddData(data):
         execute_query(query, values)
         
         logger.info("Berhasil menambahkan data guru")
-        return {"message": "berhasil menambahkan data guru"},200
+        return {"message": "berhasil menambahkan data guru", "valid": True},200
     
     except Exception as e:
         logger.error(f"Terjadi error saat login: {str(e)}")
-        return {'message': 'Internal server error'}, 500
+        return {'message': 'Internal server error', "valid": False}, 500
   
 
 def teacherUpdateData(data):
@@ -101,8 +102,8 @@ def teacherUpdateData(data):
         execute_query(query, values)
         
         logger.info("Berhasil mengubah data guru")
-        return {"message": "berhasil mengubah data guru"},200
+        return {"message": "berhasil mengubah data guru", "valid": True},200
     
     except Exception as e:
         logger.error(f"Terjadi error saat login: {str(e)}")
-        return {'message': 'Internal server error'}, 500
+        return {'message': 'Internal server error', "valid": False}, 500
