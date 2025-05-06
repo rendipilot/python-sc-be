@@ -8,7 +8,7 @@ def teacherGetAllData():
     try:
         query = """
         SELECT
-        s.id, s.username, s.email, s.created_at,
+        s.id, s.username, s.password, s.email, s.created_at,
         t.active
         FROM teachers t
         LEFT JOIN
