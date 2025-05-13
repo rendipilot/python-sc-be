@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify, make_response
 import jwt, os
-from services.login_service import login
+from services.login_service import login, isActive
 import logging
 
 login_routes = Blueprint('login_routes', __name__)
@@ -19,6 +19,16 @@ def hello():
 
     try:
         payload = jwt.decode(token, SECRET_KEY, algorithms=["HS256"])
+        
+        active = isActive(payload.get("user_id"))
+        
+        
+        if(active == 401):
+            response = make_response(jsonify({"error": "Akun sudah dibanned"}), 401)
+            response.set_cookie('mkm-token', '', expires=0)
+            logger.info("akun sudah dibanned")
+            return response
+        
         logger.info("jwt dikirimkan")
         return jsonify({
             "user_id": payload.get("user_id"),
@@ -27,6 +37,7 @@ def hello():
             "role": payload.get("role"),
             "active": payload.get("active"),
         })
+        
     except jwt.ExpiredSignatureError:
         # Token sudah expired, hapus cookie dan beri error
         response = make_response(jsonify({"error": "Token expired"}), 401)

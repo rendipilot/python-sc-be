@@ -73,3 +73,23 @@ def getAdmin(user_id):
     except Exception as e:
         logger.error(f"Terjadi error saat login: {str(e)}")
         return {'message': 'Internal server error'}, 500     
+    
+def isActive(user_id):
+    try:
+        query = """
+        SELECT active FROM teachers where user_id = %s
+        """
+        
+        values = (user_id,)
+        
+        result = execute_query(query, values, fetch_one=True)
+        
+        logger.info(f"check active status :  {user_id} akun {result}")
+        
+        if result['active'] != True:
+            return 401
+        
+        return 200
+    except Exception as e:
+        logger.error(f"Terjadi error saat login: {str(e)}")
+        return {'message': 'Internal server error'}, 500   

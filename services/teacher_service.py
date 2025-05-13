@@ -29,7 +29,7 @@ def teacherDeleteData(teacher_id):
         query = """
         UPDATE
         teachers
-        SET active = null, deleted_at = %s
+        SET active = false, deleted_at = %s
         WHERE user_id = %s
         """
         
