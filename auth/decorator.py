@@ -1,6 +1,7 @@
 from functools import wraps
 import os
 from flask import request, jsonify, make_response
+from services.login_service import isActive
 import jwt
 import logging
 from jwt.exceptions import ExpiredSignatureError, InvalidTokenError
@@ -16,6 +17,15 @@ def token_required(f):
             logger.info(f"token  tidak ditemukan = {token}")
             response = make_response(jsonify({"error": "Token not found"}), 401)
             response.set_cookie('token', '', expires=0)
+            return response
+        
+        payload = jwt.decode(token, SECRET_KEY, algorithms=["HS256"])
+        active = isActive(payload.get("user_id"))
+        
+        if(active == 401):
+            response = make_response(jsonify({"error": "Akun sudah dibanned"}), 401)
+            response.set_cookie('mkm-token', '', expires=0)
+            logger.info("akun sudah dibanned")
             return response
 
         try:
